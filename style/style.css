@@ -36,6 +36,17 @@ body {
     align-items: center;
 }
 
+
+.contenedor-imagen img {
+    max-width: 630px; /* Ajusta este valor según necesites */
+    height: auto; /* Mantiene la proporción */
+    margin: 55px 0px; /* Espacio arriba/abajo */
+    display: flex;
+    justify-content: center;
+    
+}
+
+
 /* Contenedor principal con secciones horizontales */
 .Pagina-principal {
     display: flex;
